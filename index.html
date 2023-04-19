@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Challenge Encriptador</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
-        <title>Challenge Encriptador</title>
+
     </head>
     <body>
-        <header></header>
+        <header clas="Logo">
+            <img src="images/Logo.png" alt="Logo de la página">
+        </header>
 
-        <main></main>
+        <main>
 
-        <footer></footer>
+            <section class="encriptar-desencriptar">
+
+                <textarea
+                    id="ingresarTexto"
+                    cols="70"
+                    rows="10"
+                    class="textareaIT"
+                    placeholder="Ingresa el texto que deseas encriptar/desencriptar "
+                    required="required"></textarea>
+                <img
+                    src="images/Exclamation.png"
+                    alt="Exclamación de requisitos datos de entrada">
+                <p class="disclaimer">
+                    Solo letras minusculas y sin acentos</p>
+                <button type="button" id="encriptar">
+                    Encriptar
+                </button>
+                <button type="button" id="desencriptar">
+                    Desencriptar
+                </button>
+
+            </section>
+
+            <section class="copiar-texto">
+
+                <img
+                    src="images/Muneco.png"
+                    alt="Muñeco en la parte donde se copia lo encriptado">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                <button type="button" id="copiar">Copiar</button>
+            </section>
+
+        </main>
+
+        <footer>
+            &copy Copyright Kevin Meneses 2023</p>
+        </footer>
 
     </body>
 </html>
