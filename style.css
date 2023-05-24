@@ -287,6 +287,10 @@ footer{
         left: -20px;
     }
 
+    .atencion p{
+        font-size: 1.3em;
+    }
+
     #formulario button{
         width: 300px;
         margin-right: 60px;
@@ -391,6 +395,10 @@ footer{
 
     .atencion {
         margin: 5% auto;
+    }
+
+    .atencion p{
+        font-size: 1em;
     }
 
     #formulario button {
