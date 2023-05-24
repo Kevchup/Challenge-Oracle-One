@@ -304,13 +304,11 @@ footer{
     }
 
     .copiar-texto {
-        position: static;
-        width: 600px;
-        height: 300px;
-        border-radius: 5%;
-        margin-left: 50px;
-        margin-top: 10px;
+        width: 100%;
+        display: contents;
+        margin-top: 80%;
     }
+    
 
     .copiar-texto h2 {
         font-size: 30px;
@@ -396,9 +394,9 @@ footer{
     }
 
     #formulario button {
-            width: 300px;
-            margin-right: 70px;
-            margin-left: -25px;
+    width: 300px;
+    margin-right: 70px;
+    margin-left: -25px;
     }
 
     #encriptar,
@@ -412,14 +410,10 @@ footer{
     }
 
     .copiar-texto {
-        position: static;
-        width: 290px;
-        height: 186px;
-        border-radius: 5%;
-        margin: 10px auto;
-        
+        width: 100%;
+        display: contents;
+        margin-top: 80%;
     }
-
 
     .copiar-texto h2 {
     font-size: 25px;
