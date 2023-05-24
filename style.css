@@ -138,7 +138,7 @@ button{
 
 .copiar-texto{
     position: absolute;
-    width: 390px;
+    width: 300px;
     height: 560px;
     padding: 32px;
     margin-left: 100px;
@@ -162,8 +162,8 @@ button{
 
 
 .frameUno{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     padding: 20px 0;
 
 }
@@ -195,7 +195,7 @@ color: #343A40;
 }
 
 #encriptado{
-    width: 400px;
+    width: 300px;
     height: 450px;
     padding: 24px 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -257,7 +257,7 @@ footer{
 
 
 /* Estilos para pantallas de hasta 768px */
-@media screen and (max-width:768px){
+@media screen and (max-width:910px){
 
     body {
         background: #F3F5FC;
