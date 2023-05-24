@@ -19,14 +19,15 @@
         </header>
 
         <main>
-
+            
             <section class="encriptar">
-
+                <form action="" id="formulario">
                 <textarea
                     id="textareaIn"
                     class="inputTextArea"
                     placeholder="Ingresa el texto aquí"
-                    required="required" autofocus></textarea>
+                    onblur="validarMin();"
+                    required autofocus></textarea>
 
                 <div class="atencion">
                 <img
@@ -34,32 +35,40 @@
                     alt="Exclamación de requisitos datos de entrada"><p class="disclaimer"> 
                         Solo letras minusculas y sin acentos</p>
                 </div>
-                <button id="encriptar">
+
+                <button type="submit" id="encriptar" onclick="encriptarT();">
                     Encriptar
                 </button>
                 
-                <button id="desencriptar">
+                <button type="submit" id="desencriptar" onclick="desencriptarT();">
                     Desencriptar
                 </button>
-
+             </form>
             </section>
 
             <section class="copiar-texto">
-                <iframe scrolling="no" src="images/lost.gif"></iframe>
+                <div id="ocultar">
+                <img class="frameUno" src="images/Emoji.png"  alt="imagen no texto" >
                 <!-- <img
                     src="images/Muneco.png"
                     alt="Muñeco en la parte donde se copia lo encriptado"> -->
                 <h2>Ningún mensaje fue encontrado</h2>
                 <p>Ingresa el texto que deseas encriptar o desencriptar</p>
-                <!-- <button type="button" id="copiar">Copiar</button> -->
+                </div>
 
+                <div id="mostrar">
+                    <form action="" id="traeTexto">
+                    <textarea  id="encriptado" cols="30" rows="10"></textarea>
+                    <button type="submit" id="copiar">Copiar Texto</button>
+                    </form>
+                </div>
             </section>
-
         </main>
 
         <footer>
-         <p> &copy Kevin Meneses | <b>Estudiante OracleOne</b> | 2023</p>
+         <p> &copy Kevin Meneses | <b>Estudiante OracleOne</b> | Grupo 5 | 2023</p>
     </footer>
 
+    <script src="encriptar.js"></script>
 </body>
 </html>
